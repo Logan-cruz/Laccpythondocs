@@ -1,0 +1,21 @@
+currentBalance = 1000
+programRunning = True
+while programRunning == True:
+    userChoice = input(" 1 is deposit, 2 is withdraw, 3 is to quit the program. ")
+    if userChoice ==  '1':
+        userDeposit = input(" How much you want to deposit? ")
+        currentBalance = int(currentBalance)+ int(userDeposit)
+        print("You have " + str(currentBalance) + " money")
+    elif userChoice == '2':
+        userWithdraw= input(" How much you want to take out? ")
+        userWithdraw = int(userWithdraw)
+        if userWithdraw = int(currentBalance):
+            print(" You don't have enough money sir or miss. Sorry.")
+            print("You have " + str(currentBalance) + " money")
+        else:
+            int(currentBalance) - int(userWithdraw)
+            print("You have " + str(currentBalance) + " money")
+    elif userChoice == '3':
+        break
+    else:
+        print("The choice is void")
