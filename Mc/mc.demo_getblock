@@ -1,0 +1,11 @@
+#Logan cruz
+#Get knowledge of block
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+import RPi.GPIO as GPIO # Import Raspberry Pi GPIO library
+GPIO.setwarnings(False) # Ignore warning for now
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(6, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+
+while True:
+

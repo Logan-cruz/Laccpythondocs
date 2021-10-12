@@ -11,7 +11,7 @@ def buildHouse():
     mc.setBlocks(tilePos.x+6,tilePos.y+5,tilePos.z+15,tilePos.x+10,tilePos.y+2,tilePos.z+2,1)
     mc.setBlocks(tilePos.x+7,tilePos.y+4,tilePos.z+14,tilePos.x+9,tilePos.y+3,tilePos.z+3,0)
     mc.setBlocks(tilePos.x+9,tilePos.y+3,tilePos.z+15,tilePos.x+9,tilePos.y+4,tilePos.z+15,0)
-    mc.setBlocks(tilePos.x+7, tilePos.
+    mc.setBlocks(tilePos.x+7, tilePos.)
 
 
 
