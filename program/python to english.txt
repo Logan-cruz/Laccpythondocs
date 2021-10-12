@@ -1,0 +1,11 @@
+a=15
+a=a-3
+b=a+4
+c=b*a
+d=c/4
+if d > b:
+    a=True
+else:
+    a=False
+b=not a
+d=b*c

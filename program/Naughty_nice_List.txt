@@ -1,0 +1,23 @@
+#Logan Cruz
+#Sorting children into two differnet lists
+cpClass=["yan'luis","Alex","Talon","Logan"]
+nAStudents=[]
+nIStudents=[]
+for students in cpClass:
+    while True:
+        userInput=input("Is "+ students+ " naughty or nice? Just use na or ni.")
+        if userInput=="na":
+            nAStudents.append(students)
+            break
+        elif userInput=="ni":
+            nIStudents.append(students)
+            break
+        else:
+            print("That is null and void,")
+print("The following Students are on the nice list:")
+for students in nIStudents:
+    print(students)
+print("The following students are on the naughty list:")
+for students in nAStudents:
+    print(students)
+        

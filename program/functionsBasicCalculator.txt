@@ -1,0 +1,32 @@
+#Logan cruz.
+#Function Calculator
+def add(number,number2):
+    answer=number+number2
+    return answer
+def subtract(number1,number2):
+    answer=number1-number2
+    return answer
+def multiply(number1,number2):
+    answer=number1*number2
+    return answer
+def divide(number1,number2):
+    answer=number1/number2
+    return answer
+while True:
+    firstNumber=input("What is your first number mortal? ")
+    firstNumber=int(firstNumber)
+    operator=input("You want to +,-,/,or *? ")
+    secondNumber=input("What is your second number mortal? ")
+    secondNumber=int(secondNumber)
+    if operator =="+":
+        print(add(firstNumber,secondNumber))
+    elif operator =="-":
+        print(subtract(firstNumber,secondNumber))
+    elif operator=="/":
+        print(divide(firstNumber,secondNumber))
+    elif operator=="*":
+        print(multiply(firstNumber,secondNumber))
+    else:
+        print("That is null and void.")
+        break
+    
